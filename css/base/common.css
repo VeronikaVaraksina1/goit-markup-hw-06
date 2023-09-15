@@ -1,0 +1,49 @@
+body {
+  font-family: 'Roboto', sans-serif;
+  background-color: var(--accent-text-color);
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+  margin-top: 0;
+  margin-bottom: 0;
+}
+
+ul {
+  margin-top: 0;
+  margin-bottom: 0;
+  padding-left: 0;
+}
+
+img {
+  display: block;
+  max-width: 100%;
+  height: auto;
+}
+
+.list-item,
+.benefits-list-item,
+.team-list-item,
+.portfolio-list-item,
+.social-link-list,
+.social-link-list-footer,
+.mobile-menu-nav-list,
+.mobile-menu-contacts-list,
+.mobile-menu-social-link-list {
+  list-style-type: none;
+}
+
+.logo-icon,
+.nav-link,
+.social-link,
+.contacts-link,
+.logo-icon-footer,
+.mobile-menu-nav-list-link,
+.mobile-menu-contacts-list-link {
+  text-decoration: none;
+}
