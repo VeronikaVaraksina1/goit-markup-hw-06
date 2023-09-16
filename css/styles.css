@@ -46,7 +46,7 @@
   color: var(--secondary-text-color-slate);
 } */
 
-.team-section {
+/* .team-section {
   background-color: var(--color-cloud);
 }
 
@@ -120,9 +120,9 @@
 .social-link:hover,
 .social-link:focus {
   background-color: var(--color-ocean);
-}
+} */
 
-.title-portfolio {
+/* .title-portfolio {
   margin-bottom: 72px;
 }
 
@@ -175,7 +175,7 @@
 
 .subtitle-portfolio {
   margin-bottom: 8px;
-}
+} */
 
 .page-footer {
   background-color: var(--primary-text-color-navyblue);
