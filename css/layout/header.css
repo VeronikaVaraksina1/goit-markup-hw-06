@@ -154,8 +154,7 @@
   align-items: center;
 }
 
-.logo-icon,
-.logo-icon-footer {
+.logo-icon {
   font-family: 'Raleway', sans-serif;
   font-size: 18px;
   font-weight: 700;
@@ -233,9 +232,7 @@
     transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
   }
 
-  .nav-link:hover,
   .nav-link:focus,
-  .contacts-link:hover,
   .contacts-link:focus {
     color: var(--color-ocean);
   }
@@ -256,6 +253,14 @@
     font-style: normal;
   }
 
+  .contacts-link-list {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 12px;
+  }
+
   .contacts-link {
     display: block;
     color: var(--secondary-text-color-slate);
@@ -266,17 +271,12 @@
 }
 
 @media screen and (min-width: 1158px) {
-  .page-header {
-    box-shadow: 0px 2px 1px rgba(46, 47, 66, 0.08),
-      0px 1px 1px rgba(46, 47, 66, 0.16), 0px 1px 6px rgba(46, 47, 66, 0.08);
-  }
-
   .logo-icon {
     margin-right: 76px;
   }
 
   .contacts-link-list {
-    display: flex;
+    flex-direction: row;
     gap: 40px;
   }
 

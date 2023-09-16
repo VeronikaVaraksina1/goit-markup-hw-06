@@ -1,4 +1,4 @@
-.benefits-list {
+/* .benefits-list {
   display: flex;
   justify-content: center;
   align-items: center;
@@ -44,7 +44,7 @@
   line-height: 1.5;
   letter-spacing: 0.02em;
   color: var(--secondary-text-color-slate);
-}
+} */
 
 .team-section {
   background-color: var(--color-cloud);

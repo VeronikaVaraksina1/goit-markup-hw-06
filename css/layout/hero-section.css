@@ -26,8 +26,9 @@
   letter-spacing: 0.02em;
 
   max-width: 156px;
-  padding-bottom: 72px;
-  margin: 0 auto;
+  margin-bottom: 72px;
+  margin-right: auto;
+  margin-left: auto;
 }
 
 .order-button {
@@ -51,7 +52,8 @@
   transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-.order-button:active {
+.order-button:hover,
+.order-button:focus {
   background-color: var(--color-ocean);
 }
 
@@ -65,6 +67,14 @@
         rgba(46, 47, 66, 0.7)
       ),
       url(/images/tablet/hero-image-tablet.jpg);
+  }
+
+  .title-hero-section {
+    font-size: 56px;
+    line-height: 1.07;
+
+    max-width: 496px;
+    margin-bottom: 36px;
   }
 }
 
@@ -81,36 +91,7 @@
   }
 
   .title-hero-section {
-    font-size: 56px;
-    line-height: 1.07;
-    letter-spacing: 0.02em;
-    max-width: 496px;
     margin-bottom: 48px;
-    margin-right: auto;
-    margin-left: auto;
-  }
-
-  .order-button {
-    display: block;
-    cursor: pointer;
-    font-size: 16px;
-    font-weight: 500;
-    background-color: var(--color-iris);
-    line-height: 1.5;
-    min-width: 169px;
-    border: none;
-    letter-spacing: 0.04em;
-    color: var(--accent-text-color);
-    padding: 16px 32px;
-    border-radius: 4px;
-    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.15);
-    margin: 0 auto;
-    transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
-  }
-
-  .order-button:hover,
-  .order-button:focus {
-    background-color: var(--color-ocean);
   }
 }
 
