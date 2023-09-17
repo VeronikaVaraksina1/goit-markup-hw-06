@@ -177,7 +177,7 @@
   margin-bottom: 8px;
 } */
 
-.page-footer {
+/* .page-footer {
   background-color: var(--primary-text-color-navyblue);
   padding: 100px 0;
 }
@@ -286,11 +286,11 @@
 
 .telegram-icon {
   margin-left: 16px;
-}
+} */
 
 /* Бекдроп, модальне вікно */
 
-.backdrop {
+/* .backdrop {
   position: fixed;
   top: 0;
   left: 0;
@@ -520,4 +520,4 @@
 .callback-form-submit:hover,
 .callback-form-submit:focus {
   background-color: var(--color-ocean);
-}
+} */
