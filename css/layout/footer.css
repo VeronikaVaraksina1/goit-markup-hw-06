@@ -143,8 +143,7 @@
 
 @media screen and (min-width: 768px) and (max-width: 1157px) {
   .container-footer {
-    max-width: 526px;
-    padding: 0 15px;
+    max-width: 496px;
   }
 }
 
